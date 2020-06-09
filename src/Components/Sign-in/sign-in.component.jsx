@@ -12,6 +12,8 @@ class SingIn extends React.Component{
             password:'123',
             
         }
+
+       // console.log('in sign-in component ' ,this);
     }
 
      handleEvent = (event)=>{
