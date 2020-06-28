@@ -11,8 +11,8 @@ class Directory extends React.Component{
                 id:1,
             name:'HATS',
             text:'SHOP NOW',
-            imageUrl:'https://i.pinimg.com/564x/18/52/5e/18525ed65ad6092aa747afe8209db239.jpg',
-            linkUrl:'hats'
+            imageUrl:'https://i.pinimg.com/564x/18/52/5e/18525ed65ad6092aa747afe8209db239.jpg'
+            ,linkUrl:''
         },
 
         {

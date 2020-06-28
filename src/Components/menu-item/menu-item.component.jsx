@@ -8,6 +8,7 @@ const MenuItem =(props)=> {
     <div className='background-image'
     onClick={() =>
         {
+            console.log(props);
             props.history.push(`${props.match.url}${props.linkUrl}`);
         }}
      style=
