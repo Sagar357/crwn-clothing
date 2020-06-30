@@ -1,3 +1,4 @@
+import {UserActionTypes} from './user.types'
 //const { act } = require("react-dom/test-utils");
 
 const INITIAL_STATE={
@@ -7,7 +8,7 @@ const INITIAL_STATE={
 const UserReducer=(state=INITIAL_STATE ,action)=>{
 
     switch(action.type){
-        case 'SET_CURRENT_USER':
+        case UserActionTypes.SET_CURRENT_USER:
             return{
                 ...state,
                 currentUser:action.payload
