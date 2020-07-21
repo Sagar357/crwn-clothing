@@ -11,11 +11,16 @@
     right: 10px;
     z-index: 5;
 
-    .cart-items{
+    .cart-items {
         height: 240px;
         display: flex;
         flex-direction: column;
         overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .cart-items::-webkit-scrollbar{
+        display: none;
     }
 
     button{
